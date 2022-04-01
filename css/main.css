@@ -182,3 +182,47 @@ footer span {
 	color: #77a466;
 	font-size: .875ems;
 }
+
+@media all and (min-width: 768px) {
+ /*Tablet styles here*/
+ 
+ .bottom-section {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-flow: row wrap;
+}
+
+.section-one h2 {
+	display: flex;
+	justify-content: left;
+	flex-basis: 33.3333%;
+	align-items: center;
+	flex-flow: row wrap;
+	flex: 1 1 auto;
+}
+
+.section-two {
+	display: flex;
+	flex-basis: 33.3333%;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	flex: 1 1 auto;
+
+}
+
+.section-three {
+	display: flex;
+	flex-basis: 33.3333%;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	flex: 1 1 auto;
+
+
+@media all and (min-width: 1200px) {
+	 /*Desktop styles here*/
+
+
+}
